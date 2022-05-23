@@ -1,0 +1,36 @@
+{
+  "name": "cartao",
+  "version": "1.0.0",
+  "description": "Modelo para criação de cartão de visita.",
+  "main": "index.js",
+  "type":"module",
+  "bin": { "cartaoJunglereef": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junglereef/cartaoNPM.git"
+  },
+  "keywords": [
+    "NPM",
+    "Projeto",
+    "Cartão",
+    "Node",
+    "EstartandoDevs"
+  ],
+  "author": "Atila Iglesias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junglereef/cartaoNPM/issues"
+  },
+  "homepage": "https://github.com/junglereef/cartaoNPM#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.2.4",
+    "open": "^8.4.0"
+  }
+}
