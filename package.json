@@ -1,17 +1,17 @@
 {
-  "name": "cartao",
+  "name": "cartaoatilaiglesias",
   "version": "1.0.0",
   "description": "Modelo para criação de cartão de visita.",
   "main": "index.js",
   "type":"module",
-  "bin": { "cartaoJunglereef": "index.js"
+  "bin": { "cartaoatilaiglesias": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junglereef/cartaoNPM.git"
+    "url": "https://github.com/junglereef/cartaoNPM.git"
   },
   "keywords": [
     "NPM",
