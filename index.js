@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+"use strict";
 import boxen from 'boxen';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
@@ -35,18 +38,18 @@ const questions = [
 // Informações
 const data = {
     name: chalk.bold.green("        Átila Iglesias"),
-    work: `${chalk.white("Desenvolvedor ")} ${chalk
+    work: `${chalk.white("Desenvolvedor")} ${chalk
         .hex("#2b82b2")
-        .bold("Front-End")}`,
-    blog: chalk.gray("https://") + chalk.whiteBright("iglesias.group/"),
+        .bold("web")}`,
+    blog: chalk.gray("https://") + chalk.whiteBright("iglesias.group"),
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("AtilaIglesias"),
     github: chalk.gray("https://github.com/") + chalk.green("junglereef"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("atila-iglesias"),
-    web: chalk.cyan("https://atila.gq/"),
-    npx: chalk.red("npx") + " " + chalk.white("junglereef"),
+    web: chalk.cyan("https://atila.gq"),
+    npx: chalk.red("npx") + " " + chalk.white("cartaoatilaiglesias"),
 
-    labelWork: chalk.white.bold("      Trabalho:"),
-    labelBlog: chalk.white.bold("      Projetos:"),
+    labelWork: chalk.white.bold("   Trabalho:"),
+    labelBlog: chalk.white.bold("   Projetos:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
